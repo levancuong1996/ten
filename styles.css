@@ -1,0 +1,17 @@
+#grid {
+    background-color: aqua;
+    max-width: 450px;
+    margin: 0 auto;
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+}
+#grid .box{
+    /* ( tự chia đều nhau) */
+    aspect-ratio: 1;
+    /* height: 50px; */
+    border: 1px solid red; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
